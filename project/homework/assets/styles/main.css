@@ -1,36 +1,32 @@
-h1{
+h1 {
 	text-align: center;
 	font-size: 48px;
-	margin-top: calc(106px - 0.67em);
+	margin-top: 106px;
 	font-family: 'Raleway', sans-serif;
 	color:#333333;
 }
 
-h1:after{
+h1::after {
 	content:"";
 	display: block;
-	margin:calc(40px - 0.67em) auto 0;
-	height: 2px;
+	margin:31px auto 0;
+	height: 2px;	
 	width: 64px;
 	background: #ff8c2c;
 }
 
-h1+.content{
-	margin-top: 32px;
-}
-
-.content{
+.content {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
 	font-size: 19px;
 	color:#8e8f92;
 }
 
-.wrap-section{
+.wrap-section {
 	margin: 0 10%;
 }
 
-.inner-section{
+.inner-section {
 	float: left;
 	width: 33.33%;
 	margin-top: 83px;
@@ -38,7 +34,7 @@ h1+.content{
 	box-sizing: border-box;
 }
 
-.icon{
+.icon {
 	height: 70px;
 	width: 70px;
 	border:2px solid #ff8b38;
@@ -46,7 +42,7 @@ h1+.content{
 	margin: 0 auto;
 }
 
-.inner-title{
+.inner-title {
 	margin: 35px 0;
 	text-align: center;
 	color:#333333;
@@ -54,8 +50,8 @@ h1+.content{
 	font-size: 26px;
 }
 
-.clearfix:after {
-  content: "";
-  display: block;
-  clear: both;
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
 }
