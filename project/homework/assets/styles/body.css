@@ -1,0 +1,36 @@
+
+h1{
+	text-align: center;
+	font-size: 24.5px;
+	margin-top: calc(106px - 0.67em);
+	font-family: 'Raleway', sans-serif;
+
+}
+
+h1:after{
+	content:"";
+	display: block;
+	margin:calc(40px - 0.67em) auto 0;
+	height: 2px;
+	width: 64px;
+	background: #ff8c2c;
+}
+
+h1+.content{
+	margin-top: 32px;
+}
+
+.content{
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 9px;
+}
+
+.wrap-section{
+	margin: 0 10%;
+}
+
+.inner-section{
+	float: left;
+	width: 33.33%;
+}
