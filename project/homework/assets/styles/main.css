@@ -134,8 +134,50 @@ h1::after {
 
 }
 
- .inner-menu li span {
+.inner-menu li span {
 	vertical-align: sub;
 	font-size: 30px;
 }
 
+/**************************STILISH AXURE DESIGN********/
+
+.wrap-stylish {	
+	height: 300px;
+	background: url(../images/opo.jpg) no-repeat;
+	background-position: center;
+}
+
+.wrap-stylish-opacity {
+	background: rgba(0, 0, 0, .4);
+	height: 300px;
+}
+
+.stylish {
+	margin-top: 0px;
+	padding: 70px 0 0 0;
+	text-align: center;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+}
+
+.stylish:after {
+	content: "";
+	display: block;
+	margin: 30px auto;
+	width: 65px;
+	height: 2px;
+	background: #fff;
+}
+
+.download {
+	display: block;
+	width: 120px;
+	margin: 35px auto 0;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 15px 30px;
+}
