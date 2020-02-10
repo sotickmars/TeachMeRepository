@@ -88,7 +88,7 @@ h1::after {
 	align-items: flex-end;
 }
 
-li {
+.inner-menu li {
 	list-style-type: none;
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
@@ -99,12 +99,12 @@ li {
 	margin-top:1px; 
 }
 
-li:nth-of-type(n+4) {
+.inner-menu li:nth-of-type(n+4) {
 	background: #fff;
 	text-transform: uppercase;
 }
 
-li:nth-of-type(-n+3) {
+.inner-menu li:nth-of-type(-n+3) {
 	background: #333333;
 	color:#fff;
 	padding-top: 20px;
@@ -120,3 +120,22 @@ li:nth-of-type(-n+3) {
 	border-top:5px solid #ff8b38;
 	margin-top: 0;
 }
+
+.inner-menu li:nth-of-type(3) {
+	color:#86878b;
+	font-style: italic;
+}
+
+.inner-menu li:nth-of-type(2) {
+	font-family: 'Raleway', sans-serif; 
+	font-size: 50px;
+	font-weight: bold;
+	padding-bottom: 0px;
+
+}
+
+ .inner-menu li span {
+	vertical-align: sub;
+	font-size: 30px;
+}
+
