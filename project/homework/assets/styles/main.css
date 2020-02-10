@@ -181,3 +181,33 @@ h1::after {
 	border: 2px solid #fff;
 	padding: 15px 30px;
 }
+
+/***********************FOOTER****************/
+
+.wrap-footer {
+	background: rgb(0, 0, 0);
+}
+
+.wrap-footer-icons {
+	padding-top: 35px;
+	display: flex;
+	justify-content: center;
+}
+
+.inner-footer-icons {
+	width: 10px;
+	height: 10px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+	margin-left: 30px;
+	margin-bottom: 15px;
+}
+
+.cooperate{
+	color: #fff;
+	margin: 0;
+	text-align: center;
+	padding-bottom: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
