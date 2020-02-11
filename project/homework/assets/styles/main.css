@@ -110,6 +110,7 @@ h1::after {
 	padding-top: 20px;
 	padding-bottom:  20px;
 }
+
 .professional li:nth-of-type(4) {
 	background: #ff8b38;
 	color:#fff;
@@ -131,7 +132,6 @@ h1::after {
 	font-size: 50px;
 	font-weight: bold;
 	padding-bottom: 0px;
-
 }
 
 .inner-menu li span {
@@ -142,14 +142,15 @@ h1::after {
 /**************************STILISH AXURE DESIGN********/
 
 .wrap-stylish {	
-	height: 300px;
-	background: url(../images/opo.jpg) no-repeat;
+	background-size: cover;
+	background: url(../images/stylish.jpg) no-repeat;
 	background-position: center;
 }
 
 .wrap-stylish-opacity {
 	background: rgba(0, 0, 0, .4);
-	height: 300px;
+	padding-bottom: 38px;
+	background-size: cover;
 }
 
 .stylish {
@@ -185,7 +186,7 @@ h1::after {
 /***********************FOOTER****************/
 
 .wrap-footer {
-	background: rgb(0, 0, 0);
+	background: #000;
 }
 
 .wrap-footer-icons {
