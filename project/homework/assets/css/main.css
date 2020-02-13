@@ -1,0 +1,264 @@
+.wrap-content {
+	margin: 0 auto;
+	max-width: 1100px;
+}
+
+.wrap-awesome-padding {
+	padding-top: 100px;
+	padding-bottom: 105px;
+}
+.title-awesome {
+	text-align: center;
+	font-size: 48px;
+	line-height: 1.2;
+	font-family: 'Raleway', sans-serif;
+	color:#333333;
+	margin: 0;
+}
+
+.after-title::after {
+	content:"";
+	display: block;
+	margin:31px auto 35px;
+	height: 2px;	
+	width: 65px;
+	background: #ff8c2c;
+}
+
+.content {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 14px;
+	color:#8e8f92;
+	line-height: 1.42;
+}
+
+.wrap-section {
+	margin: 0 10%;
+}
+
+.inner-section {
+	float: left;
+	width: 30%;
+	margin-top: 83px;
+	box-sizing: border-box;
+}
+
+.section-crafted {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.icon {
+	height: 70px;
+	width: 70px;
+	border:2px solid #ff8b38;
+	border-radius: 50%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #ff8b38;
+	font-size: 28px;
+}
+
+.inner-title {
+	margin: 35px 0;
+	text-align: center;
+	color:#333333;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 26px;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+/*********************PRICING OPTION**************/
+
+.wrap-pricing {
+	background: #f5f5f5;
+}
+
+.wrap-pricing-padding{
+	max-width: 1100px;
+	padding-top: 110px;
+	margin: 0 auto;
+}
+
+.pricing {
+	text-align: center;
+	font-size: 36px;
+	font-family: 'Raleway', sans-serif;
+	color:#333333;	
+	margin: 0 0 35px 0;
+}
+
+.inner-menu {
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	padding-top: 66px;
+}
+
+.paragraph-container {
+	text-align: center;
+}
+
+.menu li {
+	list-style: none;
+	text-align: center;
+}
+
+.menu {
+	padding: 0;
+}
+
+.inner-menu-section {
+	width: 30%;
+}
+
+.paragraph-professional-section {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.paragraph-color {
+	background: #333;
+	margin-top: 2px;
+	color:#fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold;
+	box-sizing: padding-box;
+}
+
+.price {
+	padding-top: 24px;
+	padding-bottom: 24px;
+	font-size: 20px;
+}
+
+.value {
+	padding-top: 23px;
+	padding-bottom: 10px;
+	font-size: 94px;
+}
+
+.value span {
+	vertical-align: sub;
+	font-size: 35px;
+}
+
+.comment {
+	color:#86878b;
+	font-style: italic;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+.paragraph-basic-section .comment {
+	border-bottom: 5px solid #ff8b38;
+}
+
+.orange-comment {
+	background: #ff8b38;
+	margin-top: 0;
+	padding-top: 14px;
+	padding-bottom: 16px;
+}
+
+.menu {
+	margin-top: 2px;
+}
+
+.menu li {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	font-size: 14px;
+	color:#8e8f92;
+	box-sizing: content-box;
+	padding: 15px 20px;
+	margin-top:1px; 
+	background: #fff;
+	text-transform: uppercase;
+}
+
+/**************************STILISH AXURE DESIGN********/
+
+.wrap-stylish {	
+	background-size: cover;
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/stylish.jpg) no-repeat center;
+}
+
+.inner-stylish {
+	padding-bottom: 35px;
+}
+
+.stylish {
+	margin-top: 0px;
+	padding: 70px 0 0 0;
+	text-align: center;
+	color: #fff;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 200;
+}
+
+.stylish:after {
+	margin: 30px auto;
+	background: #fff;
+}
+
+button{
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+}
+
+.download {
+	display: block;
+	width: 135px;
+	margin: 35px auto 0;
+	text-align: center;
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	border: 2px solid #fff;
+	padding: 14px;
+}
+
+/***********************FOOTER****************/
+
+.wrap-footer {
+	background: #000;
+}
+
+.wrap-footer-icons {
+	padding-top: 35px;
+	text-align: center;
+}
+
+.inner-footer-icons {
+	width: 10px;
+	height: 10px;
+	margin-left: 30px;
+	margin-bottom: 15px;
+	text-decoration: none;
+}
+
+.cooperate{
+	color: #fff;
+	margin: 0;
+	padding-top: 15px;
+	text-align: center;
+	padding-bottom: 15px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+}
+
+.inner-footer-icons {
+	color: #fff;
+}
