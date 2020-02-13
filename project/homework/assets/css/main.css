@@ -10,12 +10,13 @@
 .title-awesome {
 	text-align: center;
 	font-size: 48px;
+	line-height: 1.2;
 	font-family: 'Raleway', sans-serif;
 	color:#333333;
 	margin: 0;
 }
 
-.title-awesome::after {
+.after-title::after {
 	content:"";
 	display: block;
 	margin:31px auto 35px;
@@ -95,16 +96,6 @@
 	margin: 0 0 35px 0;
 }
 
-.pricing::after {
-	content:"";
-	display: block;
-	margin:31px auto 0;
-	height: 2px;	
-	width: 65px;
-	background: #ff8c2c;
-}
-
-
 .inner-menu {
 	display: flex;
 	justify-content: center;
@@ -112,9 +103,7 @@
 	padding-top: 66px;
 }
 
-.paragraph-conteiner {
-	display: flex;
-	flex-direction: column;
+.paragraph-container {
 	text-align: center;
 }
 
@@ -183,6 +172,7 @@
 .menu {
 	margin-top: 2px;
 }
+
 .menu li {
 	font-family: 'Open Sans', sans-serif;
 	text-align: center;
@@ -216,11 +206,7 @@
 }
 
 .stylish:after {
-	content: "";
-	display: block;
 	margin: 30px auto;
-	width: 65px;
-	height: 2px;
 	background: #fff;
 }
 
@@ -252,8 +238,7 @@ button{
 
 .wrap-footer-icons {
 	padding-top: 35px;
-	display: flex;
-	justify-content: center;
+	text-align: center;
 }
 
 .inner-footer-icons {
@@ -261,11 +246,13 @@ button{
 	height: 10px;
 	margin-left: 30px;
 	margin-bottom: 15px;
+	text-decoration: none;
 }
 
 .cooperate{
 	color: #fff;
 	margin: 0;
+	padding-top: 15px;
 	text-align: center;
 	padding-bottom: 15px;
 	font-family: 'Open Sans', sans-serif;
