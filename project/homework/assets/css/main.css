@@ -1,3 +1,72 @@
+.wrap-head {
+	background: linear-gradient(to top, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)), url(../images/head-bg.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.wrap-navbar{
+	background: #000;
+}
+
+.inner-head {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding-top: 110px;
+}
+
+.inner-navbar {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding-top: 21px;
+	padding-bottom: 19px;
+	display: flex;
+}
+
+.logo-navbar-img {
+	width: 85px;
+	height: 27px;
+}
+
+.navbar-menu{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: auto;
+}
+.list-navbar {
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+
+.navbar-items {
+	list-style-type: none;
+	padding-left: 45px;
+}
+
+.link-menu {
+	text-decoration: none;
+	color:#8e8f92;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.wrap-header-content {
+	max-width: 435px;
+}
+
+.logo-content {
+	width: 177px;
+	height: 57px;
+}
+
+.modern-title{
+font-family: 'Raleway', sans-serif;
+color: #fff;
+line-height: 1.2;
+font-size: 36px;
+}
+
+/**********************AWESOME********/
 .wrap-content {
 	margin: 0 auto;
 	max-width: 1100px;
@@ -249,6 +318,7 @@ button{
 	margin-left: 30px;
 	margin-bottom: 15px;
 	text-decoration: none;
+	color: #fff;
 }
 
 .cooperate{
@@ -256,11 +326,6 @@ button{
 	margin: 0;
 	padding-top: 15px;
 	text-align: center;
-	
 	font-family: 'Open Sans', sans-serif;
 	font-size: 12px;
-}
-
-.inner-footer-icons {
-	color: #fff;
 }
