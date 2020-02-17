@@ -3,47 +3,45 @@
 	background-size: cover;
 }
 
-.wrap-navbar{
+.wrap-navbar {
 	background: #000;
+	padding-bottom: 21px;
+	padding-top: 21px;
+}
+
+.content-width {
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .inner-head {
-	max-width: 1100px;
-	margin: 0 auto;
 	padding-top: 110px;
 	padding-bottom: 140px;
-}
-
-.inner-navbar {
-	max-width: 1100px;
-	margin: 0 auto;
-	padding-top: 21px;
-	padding-bottom: 19px;
-	display: flex;
 }
 
 .logo-navbar-img {
 	width: 85px;
 	height: 27px;
+	float: left;
 }
 
 .navbar-menu{
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 	margin-left: auto;
 }
 
 .list-navbar {
 	margin: 0;
 	padding: 0;
-	display: flex;
+	vertical-align: middle;
 }
 
 
 .navbar-items {
 	list-style-type: none;
 	padding-left: 45px;
+	padding-top: 5px;
+	float: right;
 }
 
 .link-menu {
@@ -61,11 +59,11 @@
 	height: 57px;
 }
 
-.modern-title{
-font-family: 'Raleway', sans-serif;
-color: #fff;
-line-height: 1.2;
-font-size: 36px;
+.modern-title {
+	font-family: 'Raleway', sans-serif;
+	color: #fff;
+	line-height: 1.2;
+	font-size: 36px;
 }
 
 .modern-title::after {
@@ -90,16 +88,18 @@ font-size: 36px;
 	box-shadow: 3px 0 7px rgba(0, 0, 0, .35);
 }
 
+.social-media-content {
+	float: left;
+}
+
 .inner-social-media {
 	padding-top: 45px;
 	padding-bottom: 25px;
-	display: flex;
 }
 
 .social-media-icons {
-	display: flex;
-	align-items: center;
-	margin-left: auto;
+	float: right;
+	padding-top: 20px;
 }
 
 .social-title {
@@ -135,11 +135,12 @@ font-size: 36px;
 }
 
 .wrap-tabs {
-	max-width: 1100px;
-	margin: 0 auto;
 	padding-top: 145px;
 	padding-bottom: 115px;
-	display: flex;
+}
+
+.inner-tabs {
+	float: left;
 }
 
 .tabs {
@@ -147,14 +148,13 @@ font-size: 36px;
 	width: 110px;
 	height: 110px;
 	margin-bottom: 2px;
+	padding-top: 49px;
+	box-sizing: border-box;
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 700;
 	box-shadow: 0 3px 7px rgba(0, 0, 0, .35);
 	text-align: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 }
 
 .tabs-orange {
@@ -171,12 +171,14 @@ font-size: 36px;
 }
 
 .wrap-tabs-effect {
-	display: flex;
-	padding-left: 100px;
+	padding-left: 210px;
 }
 
 .inner-effect {
-	padding-right: 122px;
+	float: left;
+	max-width: 476px;
+	padding-right: 94px;
+	margin-right: 0;
 }
 
 .inner-effect h2 {
@@ -202,10 +204,14 @@ font-size: 36px;
 	background: #ff8b38;
 }
 
+.img-effect {
+	float: right;
+	width: 320px;
+	height: 253px;
+}
+
 /**********************AWESOME********/
 .wrap-content {
-	margin: 0 auto;
-	max-width: 1100px;
 	padding-top: 100px;
 	padding-bottom: 105px;
 }
@@ -243,7 +249,6 @@ font-size: 36px;
 .inner-section {
 	float: left;
 	width: 30%;
-	
 	box-sizing: border-box;
 }
 
@@ -285,11 +290,9 @@ font-size: 36px;
 	background: #f5f5f5;
 }
 
-.wrap-pricing-padding{
-	max-width: 1100px;
+.wrap-pricing-padding {
 	padding-top: 110px;
 	padding-bottom: 95px;
-	margin: 0 auto;
 }
 
 .pricing {
@@ -392,10 +395,8 @@ font-size: 36px;
 /****************CUSTOMERS**********************/
 
 .wrap-customers {
-	max-width: 1100px;
 	padding-top: 107px;
 	padding-bottom: 100px;
-	margin: 0 auto;
 }
 
 .inner-title-customers {
@@ -412,20 +413,29 @@ font-size: 36px;
 
 .wrap-reviews {
 	padding-top: 57px;
-	display: flex;
-	justify-content: space-around;
 }
 
 .inner-reviews {
-	width: 30%;
+	width: 25%;
+	float: left;
+}
+
+.inner-reviews:first-child {
+	margin-left: 22px;
+}
+
+.inner-reviews:last-child {
+	margin-right: 22px;
+}
+
+.inner-reviews-center {
+	margin-left: calc(12.5% - 22px);
+	margin-right: calc(12.5% - 22px);
 }
 
 .reviews {
 	background: #f5f5f5;
-	padding-top: 27px;
-	padding-bottom: 5px;
-	padding-left: 12px;
-	padding-right: 40px;
+	padding: 27px 12px 5px;
 	border-radius: 5px;
 }
 
@@ -447,21 +457,18 @@ font-size: 36px;
 	margin-left: 10px;
 }
 
-.castomers {
+.customers {
 	padding-top: 25px;
-	display: flex;
 }
 
 .img-customers {
+	float: left;
 	width: 70px;
 	height: 70px;
 }
 
 .name-specialty {
-display: flex;
-flex-direction: column;
-justify-content: center;
-margin-left: 15px;
+	margin-left: 85px;
 }
 
 .name-specialty p {
@@ -507,7 +514,7 @@ margin-left: 15px;
 	background: #fff;
 }
 
-button{
+button {
 	padding: 0;
 	border: none;
 	font: inherit;
@@ -534,8 +541,6 @@ button{
 }
 
 .wrap-footer-icons {
-	max-width: 1100px;
-	margin: 0 auto;
 	padding-top: 35px;
 	padding-bottom: 15px;
 	text-align: center;
@@ -550,7 +555,7 @@ button{
 	color: #fff;
 }
 
-.cooperate{
+.cooperate {
 	color: #fff;
 	margin: 0;
 	padding-top: 15px;
