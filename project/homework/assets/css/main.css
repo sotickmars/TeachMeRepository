@@ -26,14 +26,10 @@
 	float: left;
 }
 
-.navbar-menu{
-	margin-left: auto;
-}
-
 .list-navbar {
 	margin: 0;
 	padding: 0;
-	vertical-align: middle;
+	float: right;
 }
 
 
@@ -41,7 +37,7 @@
 	list-style-type: none;
 	padding-left: 45px;
 	padding-top: 5px;
-	float: right;
+	float: left;
 }
 
 .link-menu {
