@@ -5,8 +5,11 @@
 
 .wrap-navbar {
 	background: #000;
-	padding-bottom: 21px;
+}
+
+.inner-navbar {
 	padding-top: 21px;
+	padding-bottom: 21px;
 }
 
 .content-width {
@@ -20,10 +23,13 @@
 	padding-bottom: 140px;
 }
 
+.wrap-logo {
+	float: left;
+}
+
 .logo-navbar-img {
 	width: 85px;
 	height: 27px;
-	float: left;
 }
 
 .list-navbar {
