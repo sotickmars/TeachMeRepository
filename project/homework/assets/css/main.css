@@ -13,9 +13,11 @@
 }
 
 .content-width {
-	max-width: 1100px;
+	max-width: 1140px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-left: 20px;
+	padding-right: 20px;
 }
 
 .inner-head {
@@ -27,6 +29,11 @@
 	float: left;
 }
 
+.wrap-logo-header {
+	height: 59px;
+	width: 177px;
+}
+
 .logo-navbar-img {
 	width: 85px;
 	height: 27px;
@@ -36,6 +43,11 @@
 	margin: 0;
 	padding: 0;
 	float: right;
+	max-width: 500px;
+}
+
+.navbar-items:first-child{
+	padding-left: 0;
 }
 
 .navbar-items {
@@ -52,7 +64,7 @@
 }
 
 .wrap-header-content {
-	max-width: 480px;
+	max-width: 515px;
 }
 
 .logo-content {
@@ -65,19 +77,24 @@
 	color: #fff;
 	line-height: 1.2;
 	font-size: 36px;
+	font-weight: 300;
 }
 
 .modern-title::after {
 	content: "";
 	display: block;
 	height: 2px;	
-	width: 65px;
-	margin: 40px 0;
+	width: 67px;
+	margin-top: 32px;
+	margin-bottom: 36px;	
 	background: #fff;
 }
 
-.content-light {
+.wrap-header-content .content-light {
 	font-weight: 300;
+	text-align: left;
+	padding-left: 2px;	
+	padding-right: 65px;	
 }
 
 .wrap-header-content .header-download {
@@ -532,7 +549,7 @@ button {
 	font-family: 'Open Sans', sans-serif;
 	color: #fff;
 	border: 2px solid #fff;
-	padding: 14px;
+	padding: 10px;
 }
 
 /***********************FOOTER****************/
