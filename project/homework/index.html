@@ -2,40 +2,48 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="assets/css/normalize.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:100,100i,200,200i,300,300i,400&display=swap" rel="stylesheet">
 	<link href="assets/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/fonts.css">
 	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/media.css">
 	<title>Document</title>
 </head>
 <body>
-	<section class="section-header">
+	<section class="section-header" id="Features">
 		<section class="wrap-head">
 			<header class="wrap-navbar">
 				<div class="inner-navbar content-width clearfix">
 					<div class="wrap-logo">
 						<a href="#"><img src="assets/images/logo.png" alt="AXIT" class="logo-navbar-img"></a>
 					</div>
-					<nav class="navbar-menu">
-						<ul class="list-navbar">
-							<li class="navbar-items">
-								<a href="#" class="link-menu">Features</a>
-							</li>
-							<li class="navbar-items">
-								<a href="#" class="link-menu">About</a>
-							</li>
-							<li class="navbar-items">
-								<a href="#" class="link-menu">Pricing</a>
-							</li>
-							<li class="navbar-items">
-								<a href="#" class="link-menu">Reviews</a>
-							</li>
-							<li class="navbar-items">
-								<a href="#" class="link-menu">Contact</a>
-							</li>
-						</ul>
-					</nav>
+					<div class="burger-wrapper">
+						<input type="checkbox" id="menu__toggle">
+						<label class="menu-button" for="menu__toggle">
+							<span></span>
+						</label>
+						<nav class="navbar-menu clearfix">
+							<ul class="list-navbar">
+								<li class="navbar-items">
+									<a href="#Features" class="link-menu">Features</a>
+								</li>
+								<li class="navbar-items">
+									<a href="#About" class="link-menu">About</a>
+								</li>
+								<li class="navbar-items">
+									<a href="#Pricing" class="link-menu">Pricing</a>
+								</li>
+								<li class="navbar-items">
+									<a href="#Reviews" class="link-menu">Reviews</a>
+								</li>
+								<li class="navbar-items">
+									<a href="#Contact" class="link-menu">Contact</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
 				</div>
 			</header>
 			<div class="inner-head content-width clearfix">
@@ -100,7 +108,7 @@
 			</div>
 		</section>
 	</section>
-	<section class="section-tabs">
+	<section class="section-tabs" id="About">
 		<div class="wrap-tabs content-width clearfix">
 			<div class="inner-tabs">
 				<div class="tabs tabs-content">TAB 1</div>
@@ -155,7 +163,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="wrap-pricing">
+	<section class="wrap-pricing" id="Pricing">
 		<div class="wrap-pricing-padding content-width">
 			<div class="inner-pricing">
 				<h2 class="pricing title-h2 after-title">PRICING OPTIONS</h2>
@@ -217,7 +225,7 @@
 			</div>
 		</div>
 	</section>
-	<section class="section-customers">
+	<section class="section-customers" id="Reviews">
 		<div class="wrap-customers content-width clearfix">
 			<div class="inner-customers">
 				<h2 class="inner-title-customers after-title">WHAT OUR CUSTOMERS ARE SAYING</h2>
@@ -282,7 +290,7 @@
 			<button class="download">Download</button>
 		</div>
 	</section>
-	<section class="section-contacts">
+	<section class="section-contacts" id="Contact">
 		<div class="content-width">
 			<div class="contact-us">
 				<h2 class="title-contact title-h2 after-title">CONTACT US</h2>

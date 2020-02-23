@@ -25,6 +25,14 @@
 	padding-bottom: 140px;
 }
 
+/*.list-navbar {
+	margin-top: 0;
+}*/
+
+.burger-wrapper input {
+	display: none;
+}
+
 .wrap-logo {
 	float: left;
 }
@@ -33,6 +41,32 @@
 	height: 59px;
 	width: 177px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .logo-navbar-img {
 	width: 85px;
@@ -145,6 +179,7 @@
 	padding-right: 13px;
 	padding-left: 13px;
 	outline: none;
+	box-sizing: border-box;
 }
 
 .form-input input::placeholder {
