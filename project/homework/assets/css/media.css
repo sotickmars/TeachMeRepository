@@ -149,9 +149,6 @@
 	}
 	/************END-BURGER*********/
 
-
-
-
 	.wrap-logo-header {
 		margin: 0 auto;
 	}
@@ -159,6 +156,7 @@
 	.wrap-header-content {
 		float: none;
 		text-align: center;
+		margin: 0 auto;
 
 	}
 
@@ -188,4 +186,97 @@
 		padding-top: 40px;
 		padding-bottom: 40px;
 	}
+
+	.wrap-tabs-effect {
+		padding-left: 140px;
+	}
+
+	.wrap-tabs,
+	.wrap-content,
+	.wrap-pricing-padding,
+	.wrap-customers {
+		padding-top: 65px;
+		padding-bottom: 65px;
+	}
+
+	.inner-section {
+		float: none;
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 25px;
+	}
+
+	.inner-menu {
+		display: block;
+		padding-top: 25px;	
+	}
+
+	.inner-menu-section {
+			width: 100%;	
+			margin-left: 0;	
+			margin-right: 0;	
+			margin-bottom: 25px;
+			border-left: 4px solid #ff8b38;		
+	}
+
+	.inner-reviews,
+	.inner-reviews:first-child {
+		float: 	none;	
+		width: 100%;
+		margin-bottom: 50px;
+		margin-left: 0;			
+	}
+
+	.inner-form-input,
+	.form-messenger {
+		position: static;
+	}
+
+	.form-messenger {
+		float: 	none;	
+		width: 100%;		
+	}
+
+	.form-messenger textarea {
+		padding-bottom: 100px;
+	}
+		
+	.form-contact-us {
+		float: none;	
+		width: 100%;	
+		margin-bottom: 50px;	
+	}
+
+	.form-messenger textarea {
+		border-left: 2px solid #ff8b38;
+	}
+
+	.wrap-form-contacts input {
+		border-left: 2px solid #ff8b38;
+	}
 }
+
+@media all and (max-width: 450px) {
+	.inner-icons {
+		font-size: 	20px;
+		margin-left: 7px;	
+		margin-right: 7px;	
+	}
+
+	.tabs {
+		width: 70px;	
+		height: 70px;	
+		padding-top: 25px;	
+	}
+
+	.wrap-tabs-effect {
+		padding-left: 80px;	
+	}
+
+	.inner-footer-icons {
+		margin-left: 10px;	
+		margin-right: 10px;	
+	}
+}
+

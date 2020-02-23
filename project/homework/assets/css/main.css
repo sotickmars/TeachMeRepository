@@ -25,10 +25,6 @@
 	padding-bottom: 140px;
 }
 
-/*.list-navbar {
-	margin-top: 0;
-}*/
-
 .burger-wrapper input {
 	display: none;
 }
@@ -245,6 +241,13 @@
 	text-decoration: none;
 	color: #ccc;
 	font-size: 48px;
+	transition-duration: 0.4s;
+}
+
+.inner-icons:hover,
+.inner-footer-icons:hover {
+	color:#ff8b38;
+	transition-duration: 0.4s;
 }
 
 /*********TABS-EFFECT************/
@@ -652,6 +655,17 @@ button {
 	color: #fff;
 	border: 2px solid #fff;
 	padding: 10px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+.download:hover {
+	color: #ff8b38;
+	border: 2px solid #ff8b38;
+}
+
+.download:active {
+	transform: scale(0.95);
 }
 
 /******************CONTACT-US*************/
@@ -754,6 +768,7 @@ button {
 	margin-bottom: 15px;
 	text-decoration: none;
 	color: #fff;
+	transition-duration: 0.4s;
 }
 
 .cooperate {
