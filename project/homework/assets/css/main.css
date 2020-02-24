@@ -661,18 +661,16 @@ button {
 }
 
 .form-contact-us {
-	float: left;
 	width: 45%;
 }
 
 .form-messenger {
-	float: right;
 	width: 45%;
 	padding-bottom: 45px;
 }
 
 .inner-form-input {
-	position: relative;
+	display: flex;
 }
 
 .inner-form-input .form-input {
@@ -691,10 +689,7 @@ button {
 }
 
 .form-messenger {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	right: 0;
+	margin-left: auto;
 }
 
 .form-messenger textarea {
