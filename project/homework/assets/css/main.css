@@ -38,32 +38,6 @@
 	width: 177px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .logo-navbar-img {
 	width: 85px;
 	height: 27px;
@@ -156,11 +130,18 @@
 }
 
 .form-input {
-	padding-top: 48px;
+	padding-top: 25px;
 	padding-left: 48px;
 	padding-right: 48px;
 	text-align: center;
 	background: #fff;
+}
+
+.input {
+	padding-bottom: 30px;
+}
+.input:last-child {
+	padding-bottom: 45px;
 }
 
 .input input {
@@ -170,7 +151,7 @@
 	border-right: 0;
 	border-bottom: 2px solid #d6d6d6;
 	font-size: 14px;
-	margin-bottom: 48px;
+	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-right: 13px;
 	padding-left: 13px;
@@ -624,7 +605,7 @@
 }
 
 .stylish {
-	margin-top: 0px;
+	margin-top: 0;
 	text-align: center;
 	font-size: 36px;
 	color: #fff;
@@ -687,6 +668,7 @@ button {
 .form-messenger {
 	float: right;
 	width: 45%;
+	padding-bottom: 45px;
 }
 
 .inner-form-input {
@@ -718,6 +700,7 @@ button {
 .form-messenger textarea {
 	box-sizing: border-box;
 	padding-left: 13px;
+	padding-top: 10px;
 	resize: none;
 	height: 100%;
 	width: 100%;

@@ -119,18 +119,18 @@
 		z-index: 2;
 	}
 
-	#menu__toggle:checked ~ .menu-button>span {
+	.toggle:checked~.menu-button>span {
 		transform: rotate(45deg);
 	}
-	#menu__toggle:checked~.menu-button>span::before {
+	.toggle:checked~.menu-button>span::before {
 		top: 0;
 		transform: rotate(0);
 	}
-	#menu__toggle:checked ~ .menu-button>span::after {
+	.toggle:checked~.menu-button>span::after {
 		top: 0;
 		transform: rotate(90deg);
 	}
-	#menu__toggle:checked~.navbar-menu>.list-navbar {
+	.toggle:checked~.navbar-menu>.list-navbar {
 		visibility: visible;
 	}
 
@@ -187,6 +187,12 @@
 		padding-bottom: 40px;
 	}
 
+	.form-title {
+		text-align: center;
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+
 	.wrap-tabs-effect {
 		padding-left: 140px;
 	}
@@ -216,8 +222,7 @@
 			width: 100%;	
 			margin-left: 0;	
 			margin-right: 0;	
-			margin-bottom: 25px;
-			border-left: 4px solid #ff8b38;		
+			margin-bottom: 25px;		
 	}
 
 	.inner-reviews,
