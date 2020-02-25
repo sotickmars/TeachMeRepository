@@ -647,6 +647,7 @@ button {
 
 .download:active {
 	transform: scale(0.95);
+	background: rgba(0, 0, 0, .5);
 }
 
 /******************CONTACT-US*************/
@@ -664,13 +665,9 @@ button {
 	width: 45%;
 }
 
-.form-messenger {
-	width: 45%;
-	padding-bottom: 45px;
-}
-
 .inner-form-input {
 	display: flex;
+	padding-bottom: 42px;
 }
 
 .inner-form-input .form-input {
@@ -679,17 +676,13 @@ button {
 	padding-top: 0;
 }
 
-.inner-form-input input {
-	margin-bottom: 35px;
-	box-sizing: border-box;
-}
-
-.inner-form-input .input:last-child input {
-	margin-bottom: 0;
+.inner-form-input .input:last-child {
+	padding-bottom: 0;
 }
 
 .form-messenger {
 	margin-left: auto;
+	width: 45%;
 }
 
 .form-messenger textarea {
@@ -708,7 +701,7 @@ button {
 
 .contact-button {
 	display: block;
-	margin: 40px auto 0;
+	margin: 0 auto;
 	width: 145px;
 	color: #fff;
 	font-family: 'Open Sans', sans-serif;

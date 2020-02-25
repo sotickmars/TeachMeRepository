@@ -99,7 +99,7 @@
 
 	.navbar-items .link-menu {
 		display: block;
-		padding: 12px 24px;
+		padding: 10px 24px;
 		font-size: 20px;
 		font-weight: 600;
 		text-decoration: none;
@@ -219,10 +219,10 @@
 	}
 
 	.inner-menu-section {
-			width: 100%;	
-			margin-left: 0;	
-			margin-right: 0;	
-			margin-bottom: 25px;		
+		width: 100%;	
+		margin-left: 0;	
+		margin-right: 0;	
+		margin-bottom: 25px;		
 	}
 
 	.inner-reviews,
@@ -246,7 +246,7 @@
 	.form-messenger textarea {
 		padding-bottom: 100px;
 	}
-		
+	
 	.form-contact-us {
 		float: none;	
 		width: 100%;	
