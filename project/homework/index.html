@@ -2,45 +2,53 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1">
 	<link rel="stylesheet" href="assets/css/normalize.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:100,100i,200,200i,300,300i,400&display=swap" rel="stylesheet">
 	<link href="assets/css/all.css" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/fonts.css">
 	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/media.css">
 	<title>Document</title>
 </head>
 <body>
-	<div class="section-header">
-		<div class="wrap-head">
-			<div class="wrap-navbar clearfix">
-				<div class="inner-navbar content-width">
+	<section class="section-header" id="features">
+		<section class="wrap-head">
+			<header class="wrap-navbar">
+				<div class="inner-navbar content-width clearfix">
 					<div class="wrap-logo">
 						<a href="#"><img src="assets/images/logo.png" alt="AXIT" class="logo-navbar-img"></a>
 					</div>
-					<nav class="navbar-menu">
-						<ul class="list-navbar">
-							<li class="navbar-items">
-								<a href="#" class="link-menu">Features</a>
-							</li>
-							<li class="navbar-items">
-								<a href="#" class="link-menu">About</a>
-							</li>
-							<li class="navbar-items">
-								<a href="#" class="link-menu">Pricing</a>
-							</li>
-							<li class="navbar-items">
-								<a href="#" class="link-menu">Reviews</a>
-							</li>
-							<li class="navbar-items">
-								<a href="#" class="link-menu">Contact</a>
-							</li>
-						</ul>
-					</nav>
+					<div class="burger-wrapper">
+						<input type="checkbox" id="menu-toggle" class="toggle">
+						<label class="menu-button" for="menu-toggle">
+							<span></span>
+						</label>
+						<nav class="navbar-menu clearfix">
+							<ul class="list-navbar">
+								<li class="navbar-items">
+									<a href="#features" class="link-menu">Features</a>
+								</li>
+								<li class="navbar-items">
+									<a href="#about" class="link-menu">About</a>
+								</li>
+								<li class="navbar-items">
+									<a href="#pricing" class="link-menu">Pricing</a>
+								</li>
+								<li class="navbar-items">
+									<a href="#reviews" class="link-menu">Reviews</a>
+								</li>
+								<li class="navbar-items">
+									<a href="#contact" class="link-menu">Contact</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
 				</div>
-			</div>
-			<div class="inner-head content-width">
-				<div class="wrap-header-content">
-					<div class="wrap-logo">
+			</header>
+			<div class="inner-head content-width clearfix">
+				<main class="wrap-header-content">
+					<div class="wrap-logo-header">
 						<img src="assets/images/logo.png" alt="AXIT" class="logo-content">
 					</div>
 					<h1 class="modern-title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
@@ -48,10 +56,25 @@
 						euismod bibendum laoreet. Proin gravida dolor sit amet lacus
 					accumsan et viverra justo commodo.</p>
 					<button class="download header-download">Download</button>
-				</div>
+				</main>
+				<form action="#" class="form-head">
+					<h3 class="form-title">Try Your <span class="color-text">FREE</span> Trial Today</h3>
+					<div class="form-input">
+						<div class="input">
+							<input type="text" name="user-name" id="username" placeholder="Name">
+						</div>
+						<div class="input">
+							<input type="email" name="user-mail" id="usermail" placeholder="Email">
+						</div>
+						<div class="input">
+							<input type="password" name="user-password" id="userpassword" placeholder="Password">
+						</div>
+					</div>
+					<button class="form-button">Get Started</button>
+				</form>
 			</div>
-		</div>
-		<div class="wrap-social-media">
+		</section>
+		<section class="wrap-social-media">
 			<div class="inner-social-media content-width clearfix">
 				<div class="social-media-content">
 					<h2 class="social-title">Social Media</h2>
@@ -83,16 +106,16 @@
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-	<div class="section-tabs">
+		</section>
+	</section>
+	<section class="section-tabs" id="about">
 		<div class="wrap-tabs content-width clearfix">
 			<div class="inner-tabs">
-				<div class="tabs tabs-oragne tabs-content">TAB 1</div>
-				<div class="tabs tabs-content tabs-black">TAB 2</div>
-				<div class="tabs tabs-content tabs-black">TAB 3</div>
+				<div class="tabs tabs-content">TAB 1</div>
+				<div class="tabs tabs-content">TAB 2</div>
+				<div class="tabs tabs-content">TAB 3</div>
 			</div>
-			<div class="wrap-tabs-effect">
+			<div class="wrap-tabs-effect clearfix">
 				<div class="inner-effect">
 					<h2 class="inner-title effect-title">Tabs with soft transitioning effect.</h2>
 					<p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
@@ -108,8 +131,8 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="wrap">
+	</section>
+	<section class="wrap">
 		<div class="wrap-content content-width">
 			<div class="wrap-awesome">
 				<h2 class="title-awesome after-title">WHY THIS IS AWESOME</h2>
@@ -139,11 +162,11 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="wrap-pricing">
+	</section>
+	<section class="wrap-pricing" id="pricing">
 		<div class="wrap-pricing-padding content-width">
 			<div class="inner-pricing">
-				<h2 class="pricing after-title">PRICING OPTIONS</h2>
+				<h2 class="pricing title-h2 after-title">PRICING OPTIONS</h2>
 				<p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			</div>
 			<div class="inner-menu">
@@ -201,14 +224,13 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="section-customers">
+	</section>
+	<section class="section-customers" id="reviews">
 		<div class="wrap-customers content-width clearfix">
 			<div class="inner-customers">
 				<h2 class="inner-title-customers after-title">WHAT OUR CUSTOMERS ARE SAYING</h2>
 				<p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
 			</div>
-
 			<div class="wrap-reviews">
 				<div class="inner-reviews">
 					<div class="reviews">
@@ -260,16 +282,41 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="wrap-stylish">
-		<div class="content-width">
-			<div class="inner-stylish">
-				<h2 class="stylish after-title">STYLISH AXURE DESIGN</h2>
-				<p class="content">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
-				<button class="download">Download</button>
-			</div>
+	</section>
+	<section class="wrap-stylish">
+		<div class="content-width inner-stylish">
+			<h2 class="stylish after-title">STYLISH AXURE DESIGN</h2>
+			<p class="content">Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+			<button class="download">Download</button>
 		</div>
-	</div>
+	</section>
+	<section class="section-contacts" id="contact">
+		<div class="content-width">
+			<div class="contact-us">
+				<h2 class="title-contact title-h2 after-title">CONTACT US</h2>
+				<p class="content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+			</div>
+			<form action="#" class="wrap-form-contacts">
+				<div class="inner-form-input clearfix">
+					<div class="form-input form-contact-us">
+						<div class="input">
+							<input type="text" name="user-name-contacts" id="username-contacts" placeholder="Name">
+						</div>
+						<div class="input">
+							<input type="email" name="user-mail-contacts" id="usermail-contacts" placeholder="Email">
+						</div>
+						<div class="input">
+							<input type="text" name="user-subject" id="usersubject" placeholder="Subject">
+						</div>
+					</div>
+					<div class="form-messenger">
+						<textarea name="messenger" placeholder="Messenger"></textarea>
+					</div>
+				</div>
+				<button class="contact-button">Send Messange</button>
+			</form>
+		</div>
+	</section>
 	<footer class="wrap-footer">
 		<div class="wrap-footer-icons content-width">
 			<a href="#" class="inner-footer-icons">
